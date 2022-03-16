@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.tick {
+  font-size: 1.6rem;
+  margin-right: 0.8rem;
+  background-color: white;
+  border: none;
+  color: blue;
+}
+
+.navbar-brand {
+  font-weight: bolder;
+  font-size: 1.9rem;
+}
+.heading {
+  color: rgb(121, 115, 115);
+  background-color: aliceblue;
+}
+.navbar-ul {
+  flex-direction: row-reverse;
+}
+.language {
+  margin-left: 25rem;
+  margin-right: 4rem;
+}
+.button {
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  height: 50px;
+  margin-right: 30px;
+  box-shadow: inset;
+  background-color: rgb(146, 143, 143);
+}
+.button:hover {
+  background-color: rgb(80, 92, 184);
+}
+.fa-globe {
+  color: blue;
+}
+.language {
+  background-color: rgb(210, 210, 231);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  color: blue;
+  width: 300px;
+  height: 50px;
+}
+nav {
+  padding: 20px;
+  position: fixed;
+  top: 10px;
+}
+.dropdown {
+  width: 120px;
+}
+.about {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+.desc {
+  font-size: 25px;
+}
+.about-section {
+  display: grid;
+  place-items: center;
+  height: 400px;
+  background-color: rgb(202, 202, 202);
+}
+.img-fluid {
+  margin-top: 4rem;
+}
+.right {
+  float: right;
+  margin: 40px;
+  width: 300px;
+}
+.description h2 {
+  float: right;
+  font-size: 40px;
+  font-weight: bold;
+  width: 400px;
+}
+.description p {
+  float: right;
+  width: 400px;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+
+.service a {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.service h2 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.planning div {
+  border: 2px solid rgb(195, 188, 188);
+  margin: 10px;
+  margin-left: 30px;
+  background-color: rgb(234, 234, 255);
+  box-shadow: slategray;
+}
+.planning h3 {
+  float: left;
+}
+.planning p {
+  float: right;
+  letter-spacing: 1px;
+  margin-top: 15px;
+}
+.handles i {
+  margin: 7px;
+}
+.resource {
+  margin-top: 50px;
+  margin: 5px;
+}
+.contact {
+  margin-top: 10rem;
+}
+.downloads a {
+  margin-top: 15px;
+  width: 200px;
+}
+.downloads a i {
+  margin-left: 10px;
+}
+.resource {
+  position: relative;
+  float: left;
+}
+.contact {
+  padding: 100px;
+  background-color: rgb(241, 230, 230);
+}
+.mission {
+  box-shadow: 2px 1px #313030;
+}
+.vision {
+  box-shadow: 2px 1px #888888;
+}
+.footer {
+  margin-left: 100px;
+}
+.copyright {
+  float: right;
+  margin-right: 100px;
+}
+.nav-item {
+  color: black;
+}
